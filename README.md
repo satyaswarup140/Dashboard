@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Dashboard
+A responsive and interactive Dashboard web application for managing various tasks and actions, including features like chat functionality, action launching, and real-time updates. Built with React.js and styled with CSS, this project showcases clean UI components and reusable design patterns.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+. Demo
+. Features
+. Technologies Used
+. Installation
+. Usage
+. Project Structure
+. Screenshots
+. Contributing
+. License
 
-## Available Scripts
+### Demo
+You can access the live demo of this project here: Dashboard Demo (Update the link with your hosted demo URL)
 
-In the project directory, you can run:
+### Features
+. Chat Feed: Communicate in real-time with interactive message display.
+. Tabs Navigation: Switch between tasks such as "Conversation," "Address Update," "Fee Reversal," and more.
+. Action Launcher: Add or execute actions like "Fee Reversal," "Retail Onboarding," etc.
+. Responsive Design: Works seamlessly on both desktop and mobile devices.
+. Interactive Buttons: Styled buttons with hover and active effects for enhanced usability.
 
-### `npm start`
+### Technologies Used
+. React.js: For building the user interface and component-based architecture.
+. CSS: For custom styling and responsive design.
+. Git: Version control for managing the codebase.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
+Follow these steps to get a local copy of the project running on your machine:
+1. Clone the repository:
+git clone https://github.com/satyaswarup140/Dashboard.git
+2. Navigate to the project directory:
+cd Dashboard
+3. Install dependencies:
+npm install
+4. Start the development server:
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Usage
+1. Open the app in your browser: http://localhost:3004.
+2. Use the tabs to navigate between different actions and sections.
+3. Interact with the Chat Feed to simulate sending and receiving messages.
+4. Launch actions using the Action Launcher interface.
 
-### `npm test`
+### Project Structure
+Dashboard/
+├── public/                # Public files (index.html, favicon, etc.)
+├── src/
+│   ├── components/        # React components (Header, ChatFeed, ActionLauncher, etc.)
+│   ├── styles/            # CSS files for individual components
+│   ├── App.js             # Main application file
+│   ├── index.js           # Entry point
+├── .gitignore             # Git ignore file
+├── package.json           # Project dependencies and scripts
+└── README.md              # Documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Deployment
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
