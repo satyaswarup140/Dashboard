@@ -1,0 +1,95 @@
+/* Chat Feed Container */
+.chat-feed {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light grey background for the chat feed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+  
+/* Tab Buttons */
+.tabs button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3498db; /* Default button color: Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+.tabs button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+  
+.tabs button:active {
+    background-color: #1c5980; /* Even darker blue on click */
+    transform: scale(1); /* Remove zoom effect on click */
+}
+  
+/* Chat Messages Styling */
+.messages {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.message {
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+  
+.message.received {
+    background-color: #e8f0fe; /* Light blue for received messages */
+    align-self: flex-start;
+    color: #2c3e50; /* Dark text for readability */
+}
+  
+.message.sent {
+    background-color: #dff7df; /* Light green for sent messages */
+    align-self: flex-end;
+    color: #2c3e50; /* Dark text for readability */
+}
+  
+/* Message Input Section */
+.message-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+  
+.message-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.message-input button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f39c12; /* Orange for send button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+.message-input button:hover {
+    background-color: #e67e22; /* Darker orange on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+  
+.message-input button:active {
+    background-color: #d35400; /* Even darker orange on click */
+    transform: scale(1); /* Remove zoom effect on click */
+}  
+  

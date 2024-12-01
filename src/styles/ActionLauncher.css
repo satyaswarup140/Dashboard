@@ -1,0 +1,33 @@
+/* Action Launcher Styling */
+.action-launcher {
+    padding: 20px;
+    background-color: #ecf0f1; /* Light grey background */
+    border-radius: 8px;
+}
+  
+/* Button Styling */
+.actions button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+/* Hover Effect for Buttons */
+.actions button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+  
+/* Last Button Styling */
+.actions button:last-child {
+    margin-bottom: 0;
+}

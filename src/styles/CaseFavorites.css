@@ -1,0 +1,13 @@
+.case-favorites {
+    padding: 20px;
+}
+  
+.case-favorites ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.case-favorites li {
+    margin: 10px 0;
+}
+  
