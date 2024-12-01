@@ -60,4 +60,4 @@ Dashboard/
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Deployment
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://vercel.com/satyaswarup140s-projects/dashboard/J8ps5UgNRsEWDfU3h2S2QJ551FS9
